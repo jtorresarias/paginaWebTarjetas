@@ -5,10 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cosmos</title>
     <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Bitcount+Prop+Single:wght@100..900&family=Grey+Qo&family=Roboto+Condensed:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Share+Tech&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <img
+        id="sistema"
+        src="imagenes/sistema-solar.png"
+        alt="icono sistema solar"
+      />
+      <h1 id="titulo">Cosmos</h1>
+      <nav>
+        <ul id="menu">
+          <li>Seccion 1</li>
+          <li>Seccion 2</li>
+          <li>Seccion 3</li>
+        </ul>
+      </nav>
+      <button class="btn">Ingregsar</button>
+      <button class="btn">Registrar</button>
+      <input id="barra" type="text" placeholder="Buscar" />
+      <button id="buscar" class="btn">Buscar</button>
+    </header>
+    <main>
+      <section id="tarjeta1" class="tarjetas">
+        <img
+          id="imagen1"
+          class="foto"
+          src="imagenes/PIA26431.jpg"
+          alt="Luna de saturno"
+        />
+        <p id="parrafo1" class="texto">
+          Europa Clipper's three main science objectives are to determine the
+          thickness <br />
+          of the moon's icy shell and its interactions with the ocean below, to
+          investigate <br />
+          its composition, and to characterize its geology. The mission's
+          detailed <br />
+          exploration of Europa will help scientists better understand the
+          astrobiological <br />
+          potential for habitable worlds beyond our planet.
+        </p>
+        <a
+          class="enlace1"
+          href="https://photojournal.jpl.nasa.gov/catalog/PIA26431"
+        >
+          Conoce más
+        </a>
+      </section>
+      <div id="tarjeta2" class="tarjetas">
+        <img
+          id="imagen2"
+          class="foto"
+          src="imagenes/PIA26347.jpg"
+          alt="imagenes de la luna"
+        />
+        <p id="parrafo2" class="texto">
+          Gestionado por el Laboratorio de Propulsión a Chorro de la NASA <br />
+          en el sur de California, el COLDArm está diseñado para operar durante
+          <br />
+          la noche lunar, un período que dura aproximadamente 14 días
+          terrestres. <br />
+          Puede funcionar a temperaturas de hasta -173 °C (-280 °F). <br />
+          Las temperaturas gélidas durante la noche lunar obstaculizarían los
+          <br />
+          brazos de las naves espaciales actuales, que dependen de calentadores
+          <br />
+          de alto consumo energético para mantenerse calientes.
+        </p>
+        <a
+          class="enlace1"
+          href="https://photojournal-jpl-nasa-gov.translate.goog/catalog/PIA26347?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+        >
+          conoce más
+        </a>
+      </div>
+      <video class="videos" controls>
+        <source src="video/PIA26347.mp4" type="video/mp4" />
+      </video>
+      <iframe
+        class="videos"
+        src="https://www.youtube.com/embed/0m0Keomc3DM/?controls=0"
+        title="video del cosmos"
+        frameborder="0"
+        allow="acceleromeeter; autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </main>
+    <footer>
+      <a href="">
+        <img src="" alt="" />
+      </a>
+      <a href="">
+        <img src="" alt="" />
+      </a>
+      <a href="">
+        <img src="" alt="" />
+      </a>
+      <form id="formulario" action="" method="post">
+        <fieldset>
+          <legend>Datos de contacto</legend>
+          <label for="nombre">Introduce tu nombre</label> <br />
+          <input
+            type="text"
+            id="nombre"
+            placeholder="Juan Perez Garcia"
+            name="nombre"
+          />
+          <br />
+          <label for="telefono">Introduce tu número telefonico</label> <br />
+          <input
+            type="tel"
+            id="telefono"
+            placeholder="55 5555 5555"
+            name="telefono"
+          />
+          <br />
+          <label for="correo">Introduce tu correo electronico</label> <br />
+          <input
+            type="email"
+            id="correo"
+            placeholder="mimail@ejemplo.com"
+            name="correo"
+          />
+          <br />
+          <label for="genero">Selecciona tu genero</label> <br />
+          <input type="radio" id="femenino" value="femenino" name="genero" />
+          <label for="femenino">Femenino</label> <br />
+          <input type="radio" id="masculino" value="masculino" name="genero" />
+          <label for="masculino">Masculino</label> <br />
+          <input type="radio" name="genero" id="noBinario" value="noBinario" />
+          <label for="noBinario">Prefiero no decir</label>
+          <h3>Seleciona tus colores favoritos</h3>
+          <label for="rojo">Rojo</label>
+          <input type="checkbox" id="rojo" name="color" />
+          <label for="azul">Azul</label>
+          <input type="checkbox" id="azul" name="color" />
+          <label for="verde">Verde</label>
+          <input type="checkbox" id="verde" name="color" />
+          <h3 id="dia">Selecciona el día</h3>
+          <select name="dia" id="day">
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miercoles">Miercoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+          </select>
+          <br />
+          <!-- <input type="submit" /> -->
+          <button id="enviar">Enviar</button>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>

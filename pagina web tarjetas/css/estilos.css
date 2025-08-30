@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sistema {
+  width: 100px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+#titulo {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 76px;
+  position: relative;
+  left: 38%;
+}
+#menu {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  position: relative;
+  left: 80%;
+  bottom: 100px;
+  list-style: none;
+}
+.btn {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  height: 30px;
+  width: 70px;
+  background-color: rgb(85, 85, 171);
+  color: azure;
+  border-radius: 10px;
+  position: relative;
+  left: 80%;
+  bottom: 250px;
+}
+
+#barra {
+  position: relative;
+  left: 25%;
+  bottom: 220px;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#buscar {
+  position: relative;
+  left: 25%;
+  bottom: 220px;
+}
+
+#imagen1 {
+  position: absolute;
+  left: 10%;
+  top: 50px;
+}
+
+#imagen2 {
+  position: absolute;
+  left: 10%;
+  top: 50px;
+}
+
+.foto {
+  width: 400px;
+  border: 3px rgb(159, 159, 218) solid;
+  padding: 10px;
+}
+
+#tarjeta1 {
+  background-image: url(../imagenes/fondo.jpg);
+  position: relative;
+  left: 5%;
+  top: 5%;
+}
+
+#tarjeta2 {
+  background-image: url(../imagenes/costelacion.webp);
+  position: relative;
+  left: 60%;
+  bottom: 750px;
+}
+
+.tarjetas {
+  background-size: cover;
+  border-radius: 20px;
+  border: 5px rgb(112, 112, 201) solid;
+  width: 500px;
+  height: 800px;
+}
+
+#parrafo1 {
+  position: absolute;
+  top: 300px;
+  left: 10%;
+}
+
+#parrafo2 {
+  position: absolute;
+  top: 300px;
+  left: 10%;
+}
+.texto {
+  width: 400px;
+  color: blanchedalmond;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  text-align: justify;
+}
+
+#parrafo2 {
+  font-size: 22px;
+}
+/* main */
+.enlace1 {
+  position: absolute;
+  top: 750px;
+  left: 40%;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+#formulario {
+  width: 30%;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  left: 60%;
+}
+#nombre {
+  margin-bottom: 10px;
+}
+#telefono {
+  margin-bottom: 10px;
+}
+#correo {
+  margin-bottom: 10px;
+}
+#noBinario {
+  margin-bottom: 10px;
+}
+#dia {
+  margin-top: 10px;
+}
+#enviar {
+  margin-top: 10px;
+}
+.videos {
+  width: 560px;
+  height: 315px;
+  position: relative;
+  left: 100px;
+  bottom: 700px;
+  margin: 15px;
+}
+main {
+  background-color: rgb(26, 25, 25);
+  height: 1300px;
+}
+footer {
+  background-color: rgb(69, 40, 96);
+}
